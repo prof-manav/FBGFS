@@ -1,4 +1,4 @@
-# FinDS: The Tin Inversion and Frequency-Band Granger Feature Selection
+# FBGFS: The Tin Inversion and Frequency-Band Granger Feature Selection
 
 Official code, data, and reproducibility artifacts for the paper:
 
