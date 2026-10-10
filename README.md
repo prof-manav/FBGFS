@@ -1,14 +1,5 @@
 # FBGFS: The Tin Inversion and Frequency-Band Granger Feature Selection
 
-/*
-
-Official code, data, and reproducibility artifacts for the paper:
-
-> **The Tin Inversion: When Feature Importance Depends on Forecast Horizon in Multi-Horizon Time Series Forecasting**
-> *Proceedings of the Workshop on Data Management for Modern Financial Systems (FinDS '26), Bengaluru, India.*
-
-*/
-
 This repository accompanies the paper and provides everything needed to reproduce the 465-configuration Diebold–Mariano (DM) ablation study, the thirteen static feature-selection baselines, and the proposed **Frequency-Band Granger Feature Selection (FBGFS)** method on London Metal Exchange (LME) base metals data.
 
 ---
@@ -182,24 +173,6 @@ The same machinery is expected to generalise to energy markets, agricultural com
 - **Time-averaged ground truth.** DM statistics aggregate 2008–2026; regime-conditioned Φ tensors are needed to track Tin's importance across commodity super-cycles.
 
 ---
-
-## Citation
-
-If you use this code, data, or the FBGFS method, please cite the paper:
-
-```bibtex
-@inproceedings{TinInversion2026,
-  title     = {The Tin Inversion: When Feature Importance Depends on Forecast Horizon in Multi-Horizon Time Series Forecasting},
-  author    = {Muktinath Vishwakarma, Manish Kurhekar},
-  booktitle = {Proceedings of the Workshop on Data Management for Modern Financial Systems (FinDS '26)},
-  year      = {2026},
-  address   = {Bengaluru, India},
-  publisher = {ACM}
-}
-```
-
-(Final author list and DOI will be added on acceptance.)
-
 ---
 
 ## License
